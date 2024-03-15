@@ -1,1 +1,0 @@
-# DRI_portal_test
