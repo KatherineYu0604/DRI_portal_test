@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UK DRI Data Repositories Portal</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 40px;
+            background-color: #e7eff6; /* Soft blue background for a light, airy feel */
+            color: #3a3b3c; /* Dark grey for readability */
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            background: #ffffff; /* Crisp white background to make content stand out */
+            padding: 20px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Gentle shadow for depth */
+            border-radius: 15px; /* Soft rounded corners for a modern touch */
+        }
+        h1 {
+            color: #2c699a; /* Strong blue for main title, adds vibrancy */
+            text-align: center; /* Center-aligning the main title for focus */
+        }
+        h2 {
+            color: #5b9bd5; /* Lighter blue for section headings */
+            border-bottom: 2px solid #aacdea; /* Underline for a touch of style */
+            padding-bottom: 10px; /* Spacing for aesthetic separation */
+        }
+        h3 {
+            color: #3178c6; /* Consistent with the blue theme for subheadings */
+        }
+        .category, .subcategory {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f0f7ff; /* Very light blue for subtle distinction */
+            border: 1px solid #d9e2ec; /* Soft blue border for definition */
+            border-radius: 10px; /* Matches the container's rounded corners */
+        }
+        .link {
+            margin-bottom: 15px;
+            padding: 15px;
+            background: #d1e7f8; /* Very soft blue for individual link containers */
+            border-radius: 10px; /* Consistent rounded corners for harmony */
+            transition: background-color 0.3s; /* Smooth transition for a better user experience */
+        }
+        .link:hover {
+            background: #b8d4f7; /* A shade darker for hover, adds interactivity */
+        }
+        .link a {
+            text-decoration: none;
+            color: #24587a; /* Deeper blue for easy reading and elegance */
+            font-weight: bold;
+        }
+        .link p {
+            margin: 10px 0 0; /* Proper spacing for clean design */
+            line-height: 1.6; /* Enhanced readability */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        
+        <img src="image.png" alt="UK Dementia Research Institute Logo" style="width:200px;"> <!-- Adjust the width as needed -->
+        <h1>UK DRI Data Repositories Portal</h1>
+        <p>This list is subject to regular review by the UK DRI Informatics Steering Committee and associated Data Working Groups. Any changes to the list will be announced on Slack and an up-to-date list will be maintained on this portal.</p>
+        
+        <div class="category">
+            <h2>General</h2>
+            <div class="link"><a href="https://www.re3data.org" target="_blank">Registry of Research Data Repositories (re3data)</a><p>A global registry of research data repositories.</p></div>
+            <div class="link"><a href="https://fairsharing.org" target="_blank">FAIRsharing</a><p>A curated resource on (meta)data standards, inter-related to databases and data policies.</p></div>
+            <div class="link"><a href="https://zenodo.org" target="_blank">Zenodo</a><p>A general-purpose open-access repository developed under the European OpenAIRE program and operated by CERN.</p></div>
+            <div class="link"><a href="https://datadryad.org" target="_blank">Dryad</a><p>Makes research data discoverable, freely reusable, and citable.</p></div>
+            <div class="link"><a href="https://github.com" target="_blank">GitHub</a><p>Hosts open-source software and code under various licenses.</p></div>
+            <div class="link"><a href="https://gitlab.com" target="_blank">GitLab</a><p>A web-based DevOps lifecycle tool that provides a Git repository manager.</p></div>
+            <div class="link"><a href="https://codeocean.com" target="_blank">Code Ocean</a><p>A cloud-based computational reproducibility platform, enabling users to share, discover and run code published in academic journals and conferences.</p></div>
+        </div>
+
+        <div class="category">
+            <h2>Domain-specific</h2>
+            <!-- Subgroup 1 -->
+            <div class="subcategory">
+                <h3>Microarray & Sequencing Data</h3>
+                <div class="link"><a href="https://www.ebi.ac.uk/arrayexpress" target="_blank">ArrayExpress</a><p>Functional genomics data from microarray and sequencing platforms.</p></div>
+                <div class="link"><a href="https://www.ebi.ac.uk/ena" target="_blank">European Nucleotide Archive (ENA)</a><p>Nucleotide sequencing data storage and retrieval.</p></div>
+                <div class="link"><a href="https://www.ncbi.nlm.nih.gov/geo" target="_blank">Gene Expression Omnibus (GEO)</a><p>Microarray, next-gen sequencing and other forms of high-throughput functional genomic data.</p></div>
+                <div class="link"><a href="http://www.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?" target="_blank">Sequence Read Archive (SRA)</a><p>Microarray, next-gen sequencing and other forms of high-throughput functional genomic data.</p></div>
+                <div class="link"><a href="http://www.ncbi.nlm.nih.gov/genbank/" target="_blank">Genbank</a><p>Annotated genetic sequence database.</p></div>
+                <div class="link"><a href="https://ega-archive.org/" target="_blank">EGA</a><p>For the permanent archiving and managed access of personally identifiable genetic and phenotypic data.</p></div>
+            </div>
+            
+            <!-- Subgroup 2 -->
+            <div class="subcategory">
+                <h3>Protein Databases</h3>
+                <!-- Protein databases links here -->
+                <div class="link"><a href="https://www.ebi.ac.uk/pride" target="_blank">Proteomics IDEntifications Database (PRIDE)</a><p>Proteomics data, including mass spectrometry and protein interaction data. How to submit, see also the ProteomeXchange Consortium for GUI-based submission tool. Recommended.</p></div>
+                <div class="link"><a href="https://www.uniprot.org" target="_blank">Universal Protein Resource (UniProt)</a><p>Including databases of protein sequences and functional information (UniProtKB), clustered sequences (UniRef), and an archive of sequence data in the public domain (UniParc).</p></div>
+                <div class="link"><a href="https://www.ebi.ac.uk/pdbe" target="_blank">Protein Data Bank in Europe (PDBe)</a><p>Tools and resources for studying structures of biological macromolecules and their relationships to sequence, function and disease. How to use and submit.</p></div>
+                <div class="link"><a href="https://www.ebi.ac.uk/intact" target="_blank">IntAct Molecular Interaction Database</a><p>A molecular interaction database and analysis system. Interactions are derived from literature curation or directly submitted.</p></div>
+                <div class="link"><a href="http://www.peptideatlas.org" target="_blank">PeptideAtlas – PASSEL</a><p>SRM/MRM data. Part of the ProteomeXchange Consortium.</p></div>
+                <div class="link"><a href="http://pcddb.cryst.bbk.ac.uk" target="_blank">Protein Circular Dichroism Data Bank (PCDDB)</a><p>Circular dichroism (CD) and synchrotron radiation CD spectral data and associated metadata. Entries are linked, when appropriate, to primary sequence (UniProt) and structural (PDB) databases.</p></div>
+                
+            </div>
+            
+            <div class="subcategory">
+                <h3>Metabolomics</h3>
+                <div class="link"><a href="http://www.ebi.ac.uk/metabolights/" target="_blank">MetaboLights</a><p>A cross-species, cross-technique database for metabolomics experiments and derived information, covering metabolite structures as well as their reference spectra, biological roles, locations, and concentrations. How to submit. Recommended.</p></div>
+            </div>
+            
+            <div class="subcategory">
+                <h3>Image Data Resource</h3>
+                <div class="link"><a href="http://idr.openmicroscopy.org/" target="_blank">Image Data Resource (IDR)</a><p>A repository for high-quality bio-image data, including cellular imaging.</p></div>
+            </div>
+            
+            <div class="subcategory">
+                <h3>BioStudies</h3>
+                <div class="link"><a href="https://www.ebi.ac.uk/biostudies/" target="_blank">BioStudies</a><p>Descriptions of biological studies, links to data from these studies in other databases at EMBL-EBI or outside, as well as data that do not fit in the structured EMBL-EBI archives. How to submit.</p></div>
+            </div>
+            
+            <div class="subcategory">
+                <h3>AMP-AD Knowledge Portal</h3>
+                <div class="link"><a href="https://www.synapse.org/#!Synapse:syn2580853/wiki/" target="_blank">AMP-AD Knowledge Portal</a><p>An NIH-designated repository for multi-omics data from human samples, cell-based and animal models, analysis results, analytical methodology, and research tools generated by multiple National Institute of Aging supported AD research programs and consortia. Hosted on Synapse.</p></div>
+            </div>
+            
+            <div class="subcategory">
+                <h3>DPUK Data Portal</h3>
+                <div class="link"><a href="https://portal.dementiasplatform.uk/" target="_blank">DPUK Data Portal</a><p>Population cohort data, including imaging and genetics.</p></div>
+            </div>
+            
+            <div class="subcategory">
+                <h3>Biological General Repository for Interaction Datasets</h3>
+                <div class="link"><a href="https://thebiogrid.org/" target="_blank">BioGRID</a><p>A curated database of protein-protein interactions, genetic interactions, chemical interactions, and post-translational modifications from major model organism species. How to submit.</p></div>
+            </div>
+            
+            <div class="subcategory">
+                <h3>Systems Biology</h3>
+                <!-- Add links for Systems Biology resources here -->
+            </div>
+            
+            <div class="subcategory">
+                <h3>Expasy</h3>
+                <div class="link"><a href="https://www.expasy.org" target="_blank">Expasy</a><p>The bioinformatics resource portal of the SIB Swiss Institute of Bioinformatics, providing access to over 160 databases and software tools, developed by SIB Groups and supporting research domains, from genomics, proteomics, and structural biology, to evolution and phylogeny, systems biology, and medical chemistry.</p></div>
+            </div>
+        </div>
+        <!-- More categories can be added in the same way -->
+    </div>
+</body>
+</html>
